@@ -1,0 +1,77 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Debug*/
+.debug .jtron{
+    background-color: hsl(192, 100%, 50%);
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.debug .navigatori{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.debug .jtron-corpo{
+    display: flex;
+}
+/*Common*/
+.bottone {
+    padding: 10px;
+    border: none;
+}
+
+.bianco{
+    background-color: white;
+}
+
+.blu{
+    background-color: hwb(219 0% 0%);
+    color: white;
+}
+
+.bianco:hover{
+    border-bottom: 1px solid blue;
+}
+
+.blu:hover{
+    border-bottom: 1px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+/*Header*/
+
+.slogan {
+    font-size: 90px;
+    text-align: center;
+}
+
+.jumbo-img{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    position: relative;
+    top: 70px;
+}
+ .li-header{
+    padding: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+ }
+
+ .li-header:first-child {
+    margin-top: 50px;
+}
