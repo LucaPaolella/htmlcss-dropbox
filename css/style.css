@@ -26,6 +26,15 @@ body{
 .debug .jtron-corpo{
     display: flex;
 }
+
+.debug .flex {
+    display: flex;
+}
+
+.debug .container{
+    justify-content: center;
+    align-items: center;
+}
 /*Common*/
 .bottone {
     padding: 10px;
@@ -74,4 +83,22 @@ ul{
 
  .li-header:first-child {
     margin-top: 50px;
+}
+
+/*Main*/
+.titoli-section {
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.radiobottone, .testo-radio{
+    margin-top: 40px;
+}
+
+.bottoni-radio{
+    align-items: center;
+}
+
+.bottoni-radio:first-child{
+    margin-right: 50px;
 }
