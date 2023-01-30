@@ -170,9 +170,41 @@ li>hr{
 
 .enterprise{
     border:1px solid #999999;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .titolo-enterprise{
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+}
+
+.bottone-info{
+    justify-content: space-between;
+}
+
+.container-enterpriseinfo>h4, h2, p{
+    padding: 20px;
+    max-width: 700px;
+}
+
+.container-enterpriseinfo{
+    border-top:1px solid #999999;
+}
+
+.container-button{
+    padding: 20px;
+}
+
+.entratesto>.bottone{
+    border: 1px solid black;
+    margin-left: 40px;
+}
+
+.entra>img{
+    max-width: 800px;
+}
+
+.entratesto>h2, p, button{
+    margin-left: 20px;
 }
