@@ -50,7 +50,11 @@ body{
     align-items: center;
 }
 
-/*Main Full screen debug*/
+.debug .domanda{
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
 
 
 
@@ -343,3 +347,20 @@ li>hr{
     color: brown;
     max-width: 400px;
  }
+
+ /*main3*/
+
+ .box-titolodomande{
+    margin-top: 100px;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 40px;
+ }
+
+ .domanda>div{
+    margin: 20px;
+    font-weight:bold;
+ }
+
+ 
