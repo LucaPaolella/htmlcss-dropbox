@@ -329,3 +329,17 @@ li>hr{
 .info-uni :last-child{
     margin-bottom: 200px;
 }
+ /*Section Porta*/
+
+ .porta{
+    background-color: hsl(192, 100%, 50%);
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+ .porta>h2{
+    color: brown;
+    max-width: 400px;
+ }
