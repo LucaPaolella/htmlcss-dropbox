@@ -216,19 +216,20 @@ li>hr{
 
 /*section delle operazioni*/
 
-
-
 .container-feature{
-    width: calc(100% : 3);
-    gap: 10px;
-    width:300px;
+    width: calc(100% / 3); 
     flex-direction:column;
-    justify-content: center;
-    align-items: center;
+    justify-content : space-between;
+    align-items : center;
 }
+
 
 .container-feature>img{
-    width: 100px;
-    justify-content: center;
-    align-items: center;
+    width: 200px;
 }
+
+.operazioni>h2{
+    margin-top: 80px;
+}
+
+/*section dei teams*/
