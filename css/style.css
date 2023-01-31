@@ -257,23 +257,75 @@ li>hr{
 /*Main Full Screen*/
 
 .container-loghi{
-    width: calc(100vw / 3);
+    /*justify-content: center;
+    align-items: center;*/
 }
 
 .box-logo{
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    width: calc(100% / 3);
 }
 
 .logo-uni{
-    width: 50%;
-    height: 50%;
-    background-color: red;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 .logo-uni>img {
-    width:500;
+    justify-content: center;
+    align-items: center;
+    width:250px;
     filter: invert(1);
 
+}
+
+.info-uni{
+    background-color: #999999;
+    width: calc(100% / 3);
+}
+
+.info-uni>img{
+    margin: 30px;
+    width: 250px;
+}
+
+.logored{
+    background-color: red;
+}
+
+.logoyellow{
+    background-color: yellow;
+}
+
+.logogreen{
+    background-color: green;
+}
+
+.logobordeaux{
+    background-color: brown;
+}
+
+.logocyan{
+    background-color: cyan;
+}
+
+.logolightblue{
+    background-color: aliceblue;
+}
+
+.logoblue{
+    background-color: blue;
+}
+
+.info-uni>hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 70%;
+}
+
+.info-uni :last-child{
+    margin-bottom: 200px;
 }
