@@ -50,6 +50,10 @@ body{
     align-items: center;
 }
 
+/*Main Full screen debug*/
+
+
+
 /*Common*/
 .debug .flex {
     display: flex;
@@ -208,10 +212,15 @@ li>hr{
 
 .entra>img{
     max-width: 800px;
+    margin-top: 100px;
 }
 
 .entratesto>h2, p, button{
     margin-left: 20px;
+}
+
+.entratesto{
+    margin-top: 100px;
 }
 
 /*section delle operazioni*/
@@ -233,3 +242,38 @@ li>hr{
 }
 
 /*section dei teams*/
+
+.teams :first-child{
+    margin-top: 150px;
+}
+
+.teams>h2{
+    padding-top: 0px;
+}
+
+.teams>p{
+    margin-bottom: 100px;
+}
+/*Main Full Screen*/
+
+.container-loghi{
+    width: calc(100vw / 3);
+}
+
+.box-logo{
+    flex-wrap: wrap;    
+}
+
+.logo-uni{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-uni>img {
+    width:500;
+    filter: invert(1);
+
+}
