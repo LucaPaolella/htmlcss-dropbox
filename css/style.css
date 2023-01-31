@@ -44,6 +44,11 @@ body{
     flex-wrap: nowrap;
 }
 
+.debug .feature{
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Common*/
 .debug .flex {
@@ -207,4 +212,23 @@ li>hr{
 
 .entratesto>h2, p, button{
     margin-left: 20px;
+}
+
+/*section delle operazioni*/
+
+
+
+.container-feature{
+    width: calc(100% : 3);
+    gap: 10px;
+    width:300px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-feature>img{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
